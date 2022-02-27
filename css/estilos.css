@@ -1,0 +1,316 @@
+
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    @import url("//fonts.googleapis.com/css2? family= Montserrat:wght@400;600 & display=swap");
+    }
+    body {
+      background-image:url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg");
+  }
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 5px 30px;
+    font-size: 28px;
+    font-variant: small-caps;
+}
+li:hover{
+    background-color: violet;
+    
+}
+
+body{
+    background-image:url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.home{
+    color:rgb(42, 54, 66);
+    font-size: 32px;
+    font-family:inherit ;
+    text-align: center;
+    background-position: center;
+}
+.home:hover{
+    background-color: rgb(158, 3, 158);
+}
+@media only screen and (min-width: 550px){
+    body{
+    background-image:url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+    .container1 {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header";
+  }
+  .nav {
+      
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 200px;
+  }
+  .container1 { grid-area: header; 
+   background-image: url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg");
+}
+  header { grid-area: header; 
+}
+
+  
+.container2 {  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 700px 700px 300px;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "logo logo"
+      "tazas llaveros"
+      "tarjetas imanes"
+      "reseñas pasoSeguir"
+      
+  }
+ 
+  .logo { grid-area: logo; 
+  color: lightcoral;
+font-size: 50px;
+letter-spacing: 100px;
+text-align: center;
+padding: 20px;
+}
+  
+  .tazas { grid-area: tazas;
+   
+}
+  .imagenTaza{
+      background-image: url(http://d3ugyf2ht6aenh.cloudfront.net/stores/001/609/296/products/ddc82a060f6175e2d0b69f32f2a3af4c-thumbnail-560x560-901-dfbb881b0503be34ec16246402640546-640-0.jpg);
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+}
+  .imagenTaza:hover{           
+      transform: scale(1.015);
+      transition: all 0.5s;
+}
+  .llaveros { grid-area: llaveros;
+    
+}
+  .Imagenesllaveros{
+      background-image: url(https://www.lapulga.com.do/f/6813724-2.jpg);
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+  }
+  .Imagenesllaveros:hover{           
+      transform: scale(1.015);
+      transition: all 0.5s;
+}
+
+  .tarjetas { grid-area: tarjetas; }
+
+  .Imagenestarjetas{
+    background-image: url(https://ae01.alicdn.com/kf/H3bed9b50e3d547898b4f4be72531060fA/Tarjetas-personalizadas-para-fiestas-postales-de-felicitaci-n-o-invitaci-n-con-sobre-color-borgo-a.jpg);
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+  }
+  .Imagenestarjetas:hover{           
+      transform: scale(1.015);
+      transition: all 0.5s;
+}
+  .imanes { grid-area: imanes; }
+  .Imagenesiman{
+    background-image: url(https://www.misregalosconfotos.com/wp-content/uploads/2017/07/Imanes-Personalizados-madera-1-1.jpg);
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+  }
+  .Imagenesiman:hover{           
+      transform: scale(1.015);
+      transition: all 0.5s;
+}
+  .reseñas { grid-area: reseñas; 
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+    margin-left: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+  .pasoSeguir { grid-area: pasoSeguir; }
+  .titulosh2{
+    color:rgb(42, 54, 66);
+    font-size: 50px;
+    font-family:inherit ;
+    text-align: center;
+    background-position: center;
+
+}
+  .parrafos{
+    font-size: 20px; 
+    text-align: center;
+    color:rgb(42, 54, 66);
+    padding: 10px;
+    
+  }
+
+.container3 {  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "footer footer";
+    border-top: 6px solid rgb(235, 185, 185);
+  }
+  
+.footer { grid-area: footer; }
+h3 {
+font-size: 35px;
+color:rgb(42, 54, 66);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-decoration: underline;
+margin-left: 100px;
+}
+ol li {
+ 
+ font-size: 26px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color:rgb(42, 54, 66);
+ font-style: bold;
+width: 300px;
+height: 30px ;
+margin: 0px;
+padding-left: 60px; 
+padding-right: 20px;   
+}
+h4 {
+margin-left: 100px;
+font-size: 25px;
+color:rgb(116, 107, 87) ;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logos{
+margin-left: 60px;
+padding: 40px;
+}
+.telefono{
+margin-left: 100px;
+font-size: 25px;
+color:rgb(116, 107, 87) ;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+}  
+@media only screen and (min-width: 550px) and (max-width: 1050px){
+li{
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-variant: small-caps;
+ }
+.container1 {  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px;
+    gap: 20px 20px;
+    grid-template-areas:
+    "header header";
+    width: 180%;
+height: 100%;
+  }
+  .container2 {  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 700px 700px 300px;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "logo logo"
+      "tazas llaveros"
+      "tarjetas imanes"
+      "reseñas pasoSeguir";
+      width: 180%;
+    height: 100%;
+}
+.cofooter {
+  background-image:url("https://i.pinimg.com/originals/b9/7e/53/b97e53db4968677238063c241cdbb623.jpg") ;
+  
+}
+.footer h3 {
+  text-align: center;
+  font-size: 40px;
+  color:rgb(42, 54, 66);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.footer h4 {
+  text-align: center;
+  font-size: 25px;
+  color:rgb(116, 107, 87) ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer ul li {
+  text-align: center;
+  font-size: 25px;
+  color:rgb(114, 107, 90) ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none ;
+
+}
+
+.footer img {
+  display: inline;
+  margin-left: 350px;
+}
+
+.footer h6 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 0.001;
+
+}
+
+.footer p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 0.001;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(114, 107, 90);
+}
+  }
+  .reseñas { grid-area: reseñas; 
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.logos{
+margin-left: 60px;
+padding: 20px;
+}
+
+
